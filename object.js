@@ -86,7 +86,7 @@ multiplyNumeric(menu)
 
 function multiplyNumeric(menu){
     for(let key in menu){
-if(typeof menu[key] === 'number'){
+if(typeof menu[key] === 'number'){ // проверяю тип 
     menu[key] *= 2
       
 }
